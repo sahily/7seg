@@ -108,7 +108,7 @@ void display(void)
 
       P0 = numberList[numbersToDisplay[x]];
 
-      delay(4);   /* 4 milliseconds seems about the right amount of time */
-                  /* for a smooth transition to the next digit/number.   */
+      delay(4);                    /* 4 milliseconds seems about the right amount of time */
+                                   /* for a smooth transition to the next digit/number.   */
    }
 }
