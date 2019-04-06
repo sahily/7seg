@@ -16,7 +16,7 @@ Driver for 7 segment display
 1. Open Keil and create new project
    * Choose Philips P89V51RD2 database
 1. Add 7seg.c file to Source Group
-   * Edit numbersToDisplay variable on line 21 of 7seg.c: unsigned int numbersToDisplay[4] = {N,N,N,N} 
+   * Edit numbersToDisplay variable on line 21 of 7seg.c: numbersToDisplay[4] = {N,N,N,N} 
 1. Build target
 1. Use Flash Magic to write the resulting hex file to the 8051 microcontroller
 
