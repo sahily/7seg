@@ -22,7 +22,7 @@ Driver for 7 segment display
 
 ### Example
 
-We can display the numbers 6, 8, 0, and 3 on the 7-segment displays by saving them to the numbersToDisplay variable on line 21.
+We can display the numbers 6, 8, 0, and 3 by saving them to the numbersToDisplay variable on line 21.
   After saving them to the variable, we build the target, and use Flash Magic to write the hex file to the microcontroller.
 
 <img src="7seg_pic.jpg" width="400">
