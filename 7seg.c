@@ -71,7 +71,7 @@ void init(void)
  *
  * creates delay for a specificed number of milliseconds
  *
- * k: number of milliseconds
+ * k: number of milliseconds (approximate)
  *
  */
 
