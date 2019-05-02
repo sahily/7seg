@@ -13,10 +13,10 @@ void init(void);
 void delay(unsigned int k);
 void display(void);
 
-sbit sl1 = P2^3;
-sbit sl2 = P2^2;
-sbit sl3 = P2^1;
-sbit sl4 = P2^0;
+sbit sl1 = P2^7;
+sbit sl2 = P2^6;
+sbit sl3 = P2^5;
+sbit sl4 = P2^4;
 
 unsigned int numbersToDisplay[4] = {6,8,0,3};   //enter 4 numbers here
 
